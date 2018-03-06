@@ -1,6 +1,6 @@
 # PPM Radio - USB Joystick Interface
 
-Yet another PPM-USB interface, this one using [LUFA (Lightweight USB Framework for AVRs)](fourwalledcubicle.com/LUFA.php) and the ATmega32U4 chip (for convenience, cheap ready-made Arduino Pro Micro clone boards are available).
+Yet another PPM-USB interface, this one using [LUFA (Lightweight USB Framework for AVRs)](http://www.fourwalledcubicle.com/LUFA.php) and the ATmega32U4 chip (for convenience, cheap ready-made Arduino Pro Micro clone boards are available).
 
 ## Hardware
 
@@ -47,7 +47,7 @@ HEX file: [RCJoystick.hex](./RCJoystick.hex)
 ## Compiling
 
 Obviously, the gcc-avr toolchain is needed.
-Download LUFA and set its path in makefile (LUFA_PATH)
+Download [LUFA](http://www.fourwalledcubicle.com/LUFA.php) and set its path in makefile (LUFA_PATH)
 I placed RCJoystick inside LUFA folder so i have
 
         LUFA_PATH = ../LUFA
