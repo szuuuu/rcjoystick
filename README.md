@@ -48,10 +48,16 @@ HEX file: [RCJoystick.hex](./RCJoystick.hex)
 
 Obviously, the gcc-avr toolchain is needed.
 Download LUFA and set its path in makefile (LUFA_PATH)
-I placed RCJoystick inside LUFA folder so i have LUFA_PATH = ../LUFA
+I placed RCJoystick inside LUFA folder so i have
+
+        LUFA_PATH = ../LUFA
+
 Tested with lufa-LUFA-170418.zip release, should work with any recent version.
+
 AVRDUDE_PROGRAMMER is set to avr109, which is compatible with the bootloader normally installed in Arduino boards using the board's USB connector - no external programmer hardware is needed.
 
+
 make -> compiling
+
 make avrdude -> installing the compiled code
 
